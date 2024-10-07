@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+        background-color: #ff4500;
+        display: flex;
+        align-items: center;
+    }
+    .navbar ul {
+        list-style-type: none;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        border: 1px solid #0000008e;
+        background-color: gray;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .navbar ul li {
+        position: relative;
+    }
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+    }
+
+    .navbar ul li:hover {
+        background-color: gray;
+    }
+    .navbar ul li .dropdown {
+        display: none;
+        position: absolute;
+        background-color: rgb(128, 128, 128);
+        width: auto;
+        margin-left: auto;
+        text-align: left;
+    }
+
+    .navbar ul li:hover .dropdown {
+        display: block;
+    }
+
+    .navbar ul li .dropdown li {
+        width: auto;
+    }
+
+    .navbar ul li .dropdown li a {
+        width: 150px;
+        margin-left: auto;
+        color: white;
+    }
+
+    .navbar ul li .dropdown li a:hover {
+        background-color: #7777777a;
+    }
+    .container{
+        background-color: rgba(24, 200, 24, 0.538);
+        display: flex;
+        width: 800px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content {
+        padding: 20px;
+        background-color: #f4f4f4;
+        margin-top: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#">Sản phẩm</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Áo khoác</a></li>
+                        <li><a href="#">Túi xách</a></li>
+                        <li><a href="#">Đầm công sở</a></li>
+                    </ul>
+                </li>
+                    <li><a href="#">Bộ sưu tập</a></li>
+                    <li><a href="#">Showroom</a></li>
+                    <li><a href="#">Độc quyền tháng 10</a></li>
+                    </ul>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra tristique consectetur. Mauris porttitor sed orci at vulputate. Sed id congue lectus, luctus tempus augue. Donec et aliquet tortor. Donec eleifend, ligula a rutrum rhoncus, neque nisl eleifend orci, vel bibendum nisl enim id erat. In ut dictum libero. Proin sed massa quis lorem pulvinar tempor. Curabitur placerat iaculis suscipit. Vivamus vitae orci sit amet urna lacinia sagittis. Suspendisse hendrerit sodales iaculis. Mauris a mi sed sapien bibendum ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum ac facilisis erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla justo lacus, vitae tincidunt sem vestibulum vitae. Sed at euismod nibh. In sit amet fringilla nibh, ac aliquet diam. Aenean maximus neque libero, eget posuere mi posuere at. Integer placerat sapien nec volutpat dapibus. Sed vel nibh pretium, suscipit mi sed, convallis orci.Nunc in enim magna. Aenean turpis nulla, consectetur facilisis malesuada at, cursus ut tortor. Suspendisse in augue ut magna tristique maximus. Vivamus at turpis et ligula hendrerit dapibus id ut nisi. Nunc feugiat, diam sit amet viverra aliquam, diam urna elementum dolor, vitae vehicula urna tortor vel neque. Mauris venenatis ex vitae lobortis volutpat. Sed laoreet, velit in lacinia eleifend, augue lectus tempus ante, cursus eleifend dolor ligula et massa. Duis in nibh sit amet libero congue ornare. Curabitur varius arcu nec dolor mattis feugiat. Pellentesque at libero velit. Etiam venenatis suscipit tellus, sed lacinia eros. Aliquam erat volutpat. Integer scelerisque ipsum quam, in lacinia elit aliquet at. Morbi viverra ligula tortor, in luctus metus sagittis vel.    Cras augue lectus, venenatis eu dignissim a, convallis quis eros. Nam ultricies vitae diam ut pretium. Praesent consequat vitae nisi eu tempus. Vestibulum velit leo, sodales ac nisi ut, tristique viverra sapien. Nam dolor nunc, pretium et ex id, vestibulum auctor libero. Morbi dolor leo, dapibus et dui sed, placerat suscipit purus. Donec in mi sit amet turpis volutpat elementum ut sed sapien. Ut hendrerit ultrices tortor, a hendrerit nibh pellentesque et. Duis tortor felis, laoreet et odio in, cursus hendrerit massa. Nullam vel mi finibus, posuere sem eu, finibus nisi. Donec id lectus ipsum. Vivamus dignissim iaculis neque. Proin non vehicula sapien, a finibus risus. Vivamus sed vulputate massa. Aenean auctor libero eget dictum consequat. Sed aliquet sed nulla nec vehicula.Mauris a ornare elit. In mauris sem, sollicitudin in pulvinar eget, hendrerit non libero. Ut ut mattis arcu, eu vulputate nulla. In suscipit ligula sed nunc tempor ultricies. Fusce eleifend justo a aliquam finibus. Nunc dignissim malesuada bibendum. Ut luctus rutrum arcu, quis condimentum odio semper ac. Aenean hendrerit placerat ex ut dictum. Integer ut gravida urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra tristique consectetur. Mauris porttitor sed orci at vulputate. Sed id congue lectus, luctus tempus augue. Donec et aliquet tortor. Donec eleifend, ligula a rutrum rhoncus, neque nisl eleifend orci, vel bibendum nisl enim id erat. In ut dictum libero. Proin sed massa quis lorem pulvinar tempor. Curabitur placerat iaculis suscipit. Vivamus vitae orci sit amet urna lacinia sagittis. Suspendisse hendrerit sodales iaculis. Mauris a mi sed sapien bibendum ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum ac facilisis erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla justo lacus, vitae tincidunt sem vestibulum vitae. Sed at euismod nibh. In sit amet fringilla nibh, ac aliquet diam. Aenean maximus neque libero, eget posuere mi posuere at. Integer placerat sapien nec volutpat dapibus. Sed vel nibh pretium, suscipit mi sed, convallis orci.Nunc in enim magna. Aenean turpis nulla, consectetur facilisis malesuada at, cursus ut tortor. Suspendisse in augue ut magna tristique maximus. Vivamus at turpis et ligula hendrerit dapibus id ut nisi. Nunc feugiat, diam sit amet viverra aliquam, diam urna elementum dolor, vitae vehicula urna tortor vel neque. Mauris venenatis ex vitae lobortis volutpat. Sed laoreet, velit in lacinia eleifend, augue lectus tempus ante, cursus eleifend dolor ligula et massa. Aenean auctor libero eget dictum consequat. Sed aliquet sed nulla nec vehicula.Mauris a ornare elit. In mauris sem, sollicitudin in pulvinar eget, hendrerit non libero. Ut ut mattis arcu, eu vulputate nulla. In suscipit ligula sed nunc tempor ultricies. Fusce eleifend justo a aliquam finibus. Nunc dignissim malesuada bibendum. Ut luctus rutrum arcu, quis condimentum odio semper ac. Aenean hendrerit placerat ex ut dictum. Integer ut gravida urna.</p>
+</body>
+</html>
